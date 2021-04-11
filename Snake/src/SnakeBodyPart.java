@@ -4,7 +4,7 @@ public class SnakeBodyPart {
     private Image image;
     public SnakeBodyPart(String filename)
     {
-        position = new Position(510, 260);
+        position = new Position(510, 270);
         image = new Image(filename);
     }
     public SnakeBodyPart(String filename, double x, double y)
